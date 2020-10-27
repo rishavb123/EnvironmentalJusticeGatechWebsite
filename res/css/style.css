@@ -1,0 +1,33 @@
+header {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#000000d0, #726909c4), url('../imgs/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 400%;
+    animation: header-title 2s;
+}
+
+#heading-text {
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 200%;
+    animation: header-text 2s;
+}
+
+#heading-btn {
+    font-size: 130%;
+}
