@@ -1,3 +1,10 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 header {
     margin: 0;
     width: 100%;
@@ -30,4 +37,33 @@ h1 {
 
 #heading-btn {
     font-size: 130%;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    font-size: 400%;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h2:after {
+    display: block;
+    height: 3px;
+    background-color: #ffffff;
+    content: " ";
+    width: 20vw;
+    margin: 0 auto;
+    margin-top: 4vh;
+}
+
+.section {
+    background-color: #b3a369;
+}
+
+.text {
+    text-align: center;
+    font-size: 120%;
+    font-family: 'Libre Baskerville', serif;
 }
