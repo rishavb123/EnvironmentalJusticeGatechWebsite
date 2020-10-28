@@ -46,6 +46,21 @@
                 </form>
             </div>
         </nav>
-
+        <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+        <script>
+            const firebaseConfig = {
+                apiKey: "AIzaSyAt-iyjcsqe7Kxd5U5kkwstlhqC7fm58mU",
+                authDomain: "gatech-environmental-justice.firebaseapp.com",
+                databaseURL: "https://gatech-environmental-justice.firebaseio.com",
+                projectId: "gatech-environmental-justice",
+                storageBucket: "gatech-environmental-justice.appspot.com",
+                messagingSenderId: "264244857400",
+                appId: "1:264244857400:web:e031607a29fa73ffe474cd",
+                measurementId: "G-8YKFD5D34S"
+            };
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+        </script>
     </body>
 </html>
