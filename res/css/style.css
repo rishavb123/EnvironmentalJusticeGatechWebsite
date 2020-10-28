@@ -60,10 +60,13 @@ h2:after {
 
 .section {
     background-color: #b3a369;
+    padding-bottom: 1%;
 }
 
 .text {
     text-align: center;
-    font-size: 120%;
+    font-size: 150%;
+    width: 80%;
+    margin-left: 10%;
     font-family: 'Libre Baskerville', serif;
 }
