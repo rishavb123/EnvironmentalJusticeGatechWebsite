@@ -1,3 +1,7 @@
+body { 
+    background-color: #b3a369;
+}
+
 nav {
     position: fixed;
     top: 0;
@@ -43,8 +47,8 @@ h2 {
     color: black;
     text-align: center;
     padding-top: 5%;
-    margin-bottom: 5%;
-    font-size: 400%;
+    margin-bottom: 2%;
+    font-size: 350%;
     font-family: 'Libre Baskerville', serif;
 }
 
@@ -58,8 +62,11 @@ h2:after {
     margin-top: 4vh;
 }
 
+h3 {
+    font-family: 'Libre Baskerville', serif;
+}
+
 .section {
-    background-color: #b3a369;
     padding-bottom: 1%;
 }
 
@@ -69,4 +76,12 @@ h2:after {
     width: 60%;
     margin-left: 20%;
     font-family: 'Libre Baskerville', serif;
+}
+
+.long-text {
+    font-size: 120%;
+}
+
+.container {
+    margin-bottom: 10%;
 }
