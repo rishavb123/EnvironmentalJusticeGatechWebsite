@@ -1,5 +1,5 @@
 body { 
-    background-color: #b3a369;
+    background-color: #ffffff;
 }
 
 nav {
@@ -7,6 +7,7 @@ nav {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 10;
 }
 
 header {
@@ -18,7 +19,21 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(#000000d0, #726909c4), url('../imgs/hero.jpg');
+    background-image: linear-gradient(#000000d0, #7269097c), url('../imgs/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(#000000d0, #7269097c), url('../imgs/hero2.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -27,14 +42,14 @@ header {
 
 h1 {
     text-align: center;
-    font-family: 'Courgette', cursive;
+    font-family: 'Times New Roman', serif;
     font-size: 400%;
     animation: header-title 2s;
 }
 
 #heading-text {
     text-align: center;
-    font-family: 'Courgette', cursive;
+    font-family: 'Times New Roman', serif;
     font-size: 200%;
     animation: header-text 2s;
 }
@@ -55,7 +70,7 @@ h2 {
 h2:after {
     display: block;
     height: 3px;
-    background-color: #ffffff;
+    background-color: #bfc200;
     content: " ";
     width: 20vw;
     margin: 0 auto;
