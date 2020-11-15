@@ -100,3 +100,30 @@ h3 {
 .container {
     margin-bottom: 10%;
 }
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5vh;
+}
+
+.image-container div {
+    width: 50%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.image-container div img {
+    width: 100%;
+    opacity: 0.7;
+    transform: scale(1.15);
+    transition: opacity 1s, transform 1s;
+}
+
+.image-container div img:hover {
+    opacity: 1;
+    transform: scale(1);
+}
