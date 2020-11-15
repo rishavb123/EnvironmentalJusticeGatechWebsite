@@ -102,6 +102,13 @@
             };
             firebase.initializeApp(firebaseConfig);
             firebase.analytics();
+
+            firebase.firestore().doc('config/config').get().then(doc => {
+                const result = prompt('Enter admin password');
+                if(!result || doc.data().psswd != result)
+                    location.href = '../';
+            })
+
         </script>
         <script src="../res/js/frontend.js"></script>
         <script src="script.js"></script>
