@@ -27,6 +27,12 @@
     margin-bottom: 5vh;
 }
 
+.case-summary {
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Libre Baskerville', serif;
+}
+
 .case {
     display: flex;
     width: 80%;
